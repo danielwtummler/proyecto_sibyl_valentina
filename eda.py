@@ -13,7 +13,7 @@ def eda():
     st.subheader("¿Que es el _ITBU_?")
 
     # ITBU
-    st.markdown("La variable _ITBU (Inactivos Temporales por Búsqueda de Empleo) de la Encuesta de Población Activa (EPA) se ha convertido en una herramienta invaluable para analizar el tiempo que las personas tardan en encontrar un trabajo en España. Esta variable nos permite:")
+    st.markdown("La variable _ITBU_ (Inactivos Temporales por Búsqueda de Empleo) de la Encuesta de Población Activa (EPA) se ha convertido en una herramienta invaluable para analizar el tiempo que las personas tardan en encontrar un trabajo en España. Esta variable nos permite:")
     
     st.markdown("""1. __Medir la búsqueda activa de empleo__:
                 La ITBU identifica a las personas que no están trabajando, pero que están buscando activamente un empleo y disponibles para trabajar. Esto nos permite diferenciarlos de aquellos que no están buscando trabajo por otras razones, como estudiar o cuidar de familiares.""")
@@ -44,19 +44,19 @@ def eda():
     col2.plotly_chart(figure_or_data = fig_itbu_boxplot, use_container_width = True)
 
     
-#     col1.markdown("""| Código | Descripción                  |
-# |--------|------------------------------|
-# | 01     | Menos de 1 mes               |
-# | 02     | De 1 a < 3 meses             |
-# | 03     | De 3 a < 6 meses             |
-# | 04     | De 6 meses a < 1 año         |
-# | 05     | De 1 año a < 1 año y medio   |
-# | 06     | De 1 año y medio a < 2 años  |
-# | 07     | De 2 a < 4 años              |
-# | 08     | 4 años o más                 |
-# """)
+    col1.markdown("""| Código | Descripción                  |
+|--------|------------------------------|
+| 01     | Menos de 1 mes               |
+| 02     | De 1 a < 3 meses             |
+| 03     | De 3 a < 6 meses             |
+| 04     | De 6 meses a < 1 año         |
+| 05     | De 1 año a < 1 año y medio   |
+| 06     | De 1 año y medio a < 2 años  |
+| 07     | De 2 a < 4 años              |
+| 08     | 4 años o más                 |
+""")
     
-    col1.dataframe(data = df_datos_itbu)
+    # col1.dataframe(data = df_datos_itbu)
 
     # Relación ITBU - EDAD
 
