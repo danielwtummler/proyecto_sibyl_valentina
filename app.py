@@ -4,7 +4,7 @@ from home import home
 from eda import eda
 
 st.set_page_config(page_title = "Titulo",
-                   layout = "wide")
+                   layout = "centered")
 
 def main():
 
