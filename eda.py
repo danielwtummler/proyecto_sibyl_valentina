@@ -4,11 +4,6 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-try:
-    st.set_page_config(layout = "wide")
-except:
-    pass
-
 def eda():
 
     st.title("La variable _ITBU_ en la Encuesta de Población Activa (__EPA__)")
