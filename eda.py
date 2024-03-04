@@ -55,6 +55,9 @@ def eda():
 | 07     | De 2 a < 4 años              |
 | 08     | 4 años o más                 |
 """)
+
+    st.markdown("El 25% de las personas con ITBU (Q1) lleva buscando trabajo entre 3 y 6 meses. Mientras que el 75% de las personas con ITBU (Q3) lleva buscando trabajo entre 2 y 4 años.
+La mitad de las personas con ITBU (mediana) lleva buscando trabajo entre 6 meses y 1 año.")
     
     # col1.dataframe(data = df_datos_itbu)
 
