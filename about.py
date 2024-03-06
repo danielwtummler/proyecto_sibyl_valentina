@@ -7,8 +7,8 @@ def about():
 
     col1, col2 = st.columns([1, 1])
 
-    img1 = Image.open("/sources/sibyl.jpg")
-    img2 = Image.open("/sources/valentina.jpg")
+    img1 = Image.open("sources/sibyl.jpg")
+    img2 = Image.open("sources/valentina.jpg")
 
     col1.markdown("#### Sibyl González")
     col1.image(image = img1, caption = None, use_column_width = False)
