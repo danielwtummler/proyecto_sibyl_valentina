@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 from home import home
 from eda import eda
+from ml import ml
+from about import about
 
 st.set_page_config(page_title = "Titulo",
                    layout = "centered")
@@ -17,9 +19,9 @@ def main():
     elif seleccion == "Exploratory Data Analysis":
         eda()
     elif seleccion == "Machine Learning Model":
-        pass
+        ml()
     else:
-        pass
+        about()
 
 if __name__ == "__main__":
     main()
