@@ -129,8 +129,6 @@ def ml():
 
         input_completo = np.array(input_completo).reshape(1, -1)
 
-        st.write(input_completo)
-
         submitted = st.form_submit_button("Predecir")
 
         if submitted:
