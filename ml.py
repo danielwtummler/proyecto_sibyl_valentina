@@ -15,7 +15,7 @@ from funciones import (transformar_CCAA, transformar_SEXO1, transformar_ECIV1, t
 def ml():
 
     
-    model = load_model("sources\modelo_nn (1).keras")
+    model = load_model("sources/modelo_nn (1).keras")
 
     st.title("Modelo Predictivo")
 
