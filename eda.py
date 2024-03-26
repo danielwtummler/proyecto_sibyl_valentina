@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 def eda():
 
@@ -115,7 +113,7 @@ Se puede observar cómo el tiempo de búsqueda aumenta en la medida en que aumen
 
     st.markdown("""El ciclo 130 a 205 se refiere a la trayectoria desde el trimestre 1 del 2005 hasta el trimestre 4 del 2023.
 Observamos un pico de encuestados en el segundo trimestre del 2013, habiendo un descenso a partir de ese año de manera incremental.
-En el análisis entre 2005 y 2023 no se muestra diferencia significativa entre el tiempo de búsqueda por género. (mismo gráfico entre 2017 a 2023)""")
+En el análisis entre 2005 y 2023 no se muestra diferencia significativa entre el tiempo de búsqueda por género.""")
     
 
 

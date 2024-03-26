@@ -26,23 +26,5 @@ def home():
     st.markdown("__Bases de datos__: Encuesta de Población Activa (EPA)")
 
 
-# La variable ITBU en la Encuesta de Población Activa (EPA): Una ventana al tiempo de búsqueda de empleo
-
-# La variable ITBU (Inactivos Temporales por Búsqueda de Empleo) de la Encuesta de Población Activa (EPA) se ha convertido en una herramienta invaluable para analizar el tiempo que las personas tardan en encontrar un trabajo en España. Esta variable nos permite:
-
-# 1. Medir la búsqueda activa de empleo:
-
-# La ITBU identifica a las personas que no están trabajando, pero que están buscando activamente un empleo y disponibles para trabajar. Esto nos permite diferenciarlos de aquellos que no están buscando trabajo por otras razones, como estudiar o cuidar de familiares.
-
-# 2. Estimar el tiempo de búsqueda:
-
-# La EPA pregunta a las personas con ITBU cuánto tiempo llevan buscando empleo. Esta información nos permite calcular la duración media del desempleo, así como la probabilidad de encontrar trabajo en diferentes plazos.
-
-# 3. Analizar las características de los demandantes:
-
-# La EPA también recopila información sobre las características socioeconómicas de las personas con ITBU, como su edad, sexo, nivel educativo y formación. Esto nos permite identificar los grupos que tienen más dificultades para encontrar un trabajo según nuestro análisis.
-
-# En resumen, la variable ITBU de la EPA es una herramienta poderosa para analizar el tiempo de búsqueda de empleo en España. Esta información tiene el potencial de ser utilizada por los investigadores, los responsables políticos y los propios demandantes de empleo para tomar decisiones más informadas sobre el mercado laboral.""")
-
 if __name__ == "__main__":
     home()
